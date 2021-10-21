@@ -1,7 +1,7 @@
-from itertools import count, cycle
+from itertools import count
 
-list_1 = count(x := int(input()))
+list = count(x := int(input()))
 
 for _ in range(8):
-    print(f"(Цифры) = ({next(list_1)})")
+    print(f"Цифры = {next(list)}")
 
